@@ -11,7 +11,8 @@ public class SfgPetClinicApplicationTests
 {
 
     @Test
-    public void contextLoads() {
+    public void contextLoads()
+    {
     }
 
 }
