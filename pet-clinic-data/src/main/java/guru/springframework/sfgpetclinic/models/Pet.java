@@ -1,15 +1,25 @@
 package guru.springframework.sfgpetclinic.models;
 
-import com.sun.xml.internal.rngom.parse.host.Base;
 
 import java.time.LocalDate;
 
 
 public class Pet extends BaseEntity
 {
+    private String name;
     private Owner owner;
     private PetType petType;
     private LocalDate birthDate;
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
 
     public Owner getOwner()
     {
